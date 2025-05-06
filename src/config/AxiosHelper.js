@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-export const baseURL = 'https://api.example.com'; // Replace with your actual base URL
+export const baseURL ="http://localhost:8080";
 export const httpClient = axios.create({
 baseURL: baseURL,
 });
