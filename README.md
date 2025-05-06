@@ -1,12 +1,35 @@
-# React + Vite
+# Realtime Chat App 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación de chat en tiempo real construida con React, WebSocket (`@stomp/stompjs` + `sockjs-client`), y Tailwind CSS.
 
-Currently, two official plugins are available:
+## 🚧 Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 💬 Mensajería en tiempo real por sala
+- ✅ Indicador de "escribiendo..."
+- 🔐 Sesión persistente en `localStorage`
+- 🔔 Alertas con `react-hot-toast`
+- 🧭 Navegación con `react-router`
 
-## Expanding the ESLint configuration
+## 📦 Tecnologías utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Tailwind CSS
+- WebSocket con STOMP
+- SockJS
+- React Icons
+- React Hot Toast
+- React Router
+
+## Instalación
+
+1. Clona el repositorio frontend:
+
+   ```bash
+   git clone https://github.com/x-jirox/chat-app-frontend.git
+   ```
+1. Clona el repositorio backend:
+
+   ```bash
+   git clone https://github.com/x-jirox/chat-app-backend.git
+   ```
+
